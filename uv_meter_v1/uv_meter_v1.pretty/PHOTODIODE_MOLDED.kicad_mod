@@ -1,0 +1,159 @@
+(footprint "PHOTODIODE_MOLDED"
+	(version 20241129)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr " Diode/Photodiode molded body\n\nMolded Body package with body size 3.50 X 2.80 X 1.90 mm\n\nNOTES :\n\n• Initially designed for http://www.geni-uv.com/download/products/GUVA-S12SD.pdf GUVA-S12SD photodiode")
+	(property "Reference" "REF**"
+		(at 0 -2.1049 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2988039b-c1a6-4b73-bd1d-4abdc84393f8")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "PHOTODIODE_MOLDED"
+		(at 0 2.1049 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "02dea560-2a9b-42db-a340-1630ab55a04a")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify top)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "693a75fc-de7a-4d10-b74a-ee22cc98cc30")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4acd5de2-0813-4cb2-b8ce-0c61482c749e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f12f3d1-0f5a-4967-9d07-7e46abed7922")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.6491 -1.4699)
+		(end -2.6491 1.4699)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "602debf9-fa56-40f0-904f-c4c54ef161a4")
+	)
+	(fp_line
+		(start -2.6491 1.4699)
+		(end 1.825 1.4699)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e37edd72-8762-4b10-b2c5-47f418978ffd")
+	)
+	(fp_line
+		(start 1.825 -1.4699)
+		(end -2.6491 -1.4699)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecdd8478-a9a9-4757-9813-b629da0755b8")
+	)
+	(fp_line
+		(start -1.825 -1.4)
+		(end 1.825 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "953044b6-c604-46da-8685-83110b952c47")
+	)
+	(fp_line
+		(start -1.825 1.4)
+		(end -1.825 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "331eb2a1-a715-4cde-bd90-fea7cc09619d")
+	)
+	(fp_line
+		(start 1.825 -1.4)
+		(end 1.825 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f4f6bac-2cb8-466a-a482-d4e27d946e95")
+	)
+	(fp_line
+		(start 1.825 1.4)
+		(end -1.825 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48d9d830-75ce-424e-bff2-348ea445ab99")
+	)
+	(pad "1" smd roundrect
+		(at -1.5 0)
+		(size 1.3 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.005)
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "c014f340-7843-4f46-bb7e-89db91d0e26c")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1.3 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "5e0b50de-5908-46ba-820f-5c4a6f2a25cf")
+	)
+	(embedded_fonts no)
+)

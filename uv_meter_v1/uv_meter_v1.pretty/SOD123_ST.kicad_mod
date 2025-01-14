@@ -1,0 +1,138 @@
+(footprint "SOD123_ST"
+	(version 20241129)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Package used for SOD123 diode components. Recommended footprint by  https://www.st.com/content/ccc/resource/technical/document/datasheet/group1/0f/03/9b/7c/50/58/48/d7/CD00001852/files/CD00001852.pdf/jcr:content/translations/en.CD00001852.pdf/\">these general footprint dimensions")
+	(property "Reference" "REF**"
+		(at -0.85 0.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "315b3a86-1e20-4168-bb09-d9876c39dbfd")
+		(effects
+			(font
+				(size 0.368 0.368)
+				(thickness 0.032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SOD123_ST"
+		(at -0.85 0.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3e259d53-4a1d-4040-a244-233506a3e066")
+		(effects
+			(font
+				(size 0.368 0.368)
+				(thickness 0.032)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea275519-cc5f-4de4-b7c8-376c862ab459")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "939c6fab-895e-4ab7-ada2-bf9f5915ff26")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e244eb9-4ec3-4a62-b59f-1991ff44bc52")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.225 -0.425)
+		(end 1.225 -0.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c185f47-28a0-4907-9b3f-d32bf667f6d1")
+	)
+	(fp_line
+		(start -1.225 0.425)
+		(end -1.225 -0.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdcab760-fe08-4c64-927d-930837114513")
+	)
+	(fp_line
+		(start 0.9 -0.3)
+		(end 0.9 0.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9904fb9-bdd9-4c3e-bff7-0150bcb443e2")
+	)
+	(fp_line
+		(start 1.225 -0.425)
+		(end 1.225 0.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35d0290b-1ee4-420c-925e-82b1780531e5")
+	)
+	(fp_line
+		(start 1.225 0.425)
+		(end -1.225 0.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b162bf6-744b-4443-b186-83b8fe7b59ad")
+	)
+	(pad "A" smd rect
+		(at -1.74 0)
+		(size 0.97 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "386fac8c-78c1-476c-8587-7e76509b7b7d")
+	)
+	(pad "K" smd rect
+		(at 1.74 0)
+		(size 0.97 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "580edfbc-7870-4133-b3c1-25e1e0a5ffab")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,128 @@
+(footprint "RES_0805_ERJ"
+	(version 20241129)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0805 Package for ERJ series resistors at CIXI")
+	(property "Reference" "REF**"
+		(at -1 0.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "35fedb38-2df8-4d75-8d37-4e13a582ac7e")
+		(effects
+			(font
+				(size 0.552 0.552)
+				(thickness 0.048)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "RES_0805_ERJ"
+		(at -1 0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "955698cb-2b3c-46e0-810d-7da808a99ef1")
+		(effects
+			(font
+				(size 0.552 0.552)
+				(thickness 0.048)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1aca6910-ea98-42ee-80f0-0b81c6de2995")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f210069b-1058-4303-a502-80e574d5b300")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcce11e3-2bdc-420e-bbb2-6f1bfb1c7e98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "284760e6-44f3-4968-b965-937cc45c69f4")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e662710-a759-48c3-8b07-9e919d03a1c3")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "430c6576-3680-4df7-ae57-1569aa06c0bd")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2031dee-9722-4b7d-8bee-614b68d89157")
+	)
+	(pad "1" smd rect
+		(at -1.2 0)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "b18121df-741f-40c2-9d0b-8528da2448bb")
+	)
+	(pad "2" smd rect
+		(at 1.2 0)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "92d62fcd-34c4-45f7-a706-f2964aef809c")
+	)
+	(embedded_fonts no)
+)
