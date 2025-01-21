@@ -1,0 +1,176 @@
+(footprint "LED_0805"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "0805 Package for APT2012SECK/J3-PRV LED")
+	(property "Reference" "REF**"
+		(at -1.5 0.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "457f9eab-f02f-47ab-9897-a82d0d2d0d4d")
+		(effects
+			(font
+				(size 0.552 0.552)
+				(thickness 0.048)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "LED_0805"
+		(at -1.5 0.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9c86734b-5878-41ee-a108-590859d92bce")
+		(effects
+			(font
+				(size 0.552 0.552)
+				(thickness 0.048)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7919dc7-9b91-4612-aa42-59d957502116")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d28b3917-3946-427b-a5f9-6763e559a761")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70c1d146-0447-4772-b62c-3843a3600e6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c52500d-a761-4a4d-a7f6-45bd65464773")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68a5baca-942b-4f59-b2bd-c60cb090b650")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6bcea24b-2fa4-4355-a050-506dd78901c5")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57c31090-9453-4301-bb17-01658a64ab23")
+	)
+	(fp_circle
+		(center -1.2 -1.3)
+		(end -1.05 -1.3)
+		(stroke
+			(width 0.35)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ee1cbab3-66a8-4d2f-ad4e-e3e69d115170")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "91be4dd1-b332-45a0-81c0-95099fac780b")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "72444364-0a92-48e4-90a5-8f345ddb71f5")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "9764edf0-ec93-4479-bf81-2bb35c7284d5")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "4e87a7f1-fe73-48b8-8da4-426f6bd08908")
+	)
+	(pad "1" smd rect
+		(at -1.2 0)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "8ff5ef9c-edee-48c9-9e81-0d4a2b3b7291")
+	)
+	(pad "2" smd rect
+		(at 1.2 0)
+		(size 1.3 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "d1c54df8-db48-49b5-9a45-bb04a025dc91")
+	)
+)
