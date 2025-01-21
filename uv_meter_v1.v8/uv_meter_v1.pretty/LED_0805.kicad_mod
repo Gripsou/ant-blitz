@@ -173,4 +173,15 @@
 		(thermal_bridge_angle 0)
 		(uuid "d1c54df8-db48-49b5-9a45-bb04a025dc91")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric_Castellated.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

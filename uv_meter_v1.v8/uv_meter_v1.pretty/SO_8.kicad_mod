@@ -261,4 +261,15 @@
 		(thermal_bridge_angle 0)
 		(uuid "c24e721f-296a-4681-95c3-b6d7cf139ffc")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )

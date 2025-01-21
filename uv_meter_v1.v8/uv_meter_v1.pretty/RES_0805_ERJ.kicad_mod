@@ -182,4 +182,15 @@
 		(thermal_bridge_angle 0)
 		(uuid "7906c11f-c85d-495d-89e1-38a03e1ef0ff")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
