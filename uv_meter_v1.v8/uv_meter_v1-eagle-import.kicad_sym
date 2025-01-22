@@ -3815,596 +3815,6 @@
 			)
 		)
 	)
-	(symbol "LDO_TPS7A2418DBVR"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" ""
-			(at 1.5 4 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" ""
-			(at 1.5 2.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "uv_meter_v1:SOT23-5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TPS7A24 200-mA, 18-V input voltage, Ultra-Low Iq, Low-Dropout Voltage Regulator"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "LDO_TPS7A2418DBVR_1_0"
-			(polyline
-				(pts
-					(xy 0 -3.5) (xy 1.5 -3.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 1.5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.5 -8) (xy 9.5 -8)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.5 0) (xy 1.5 -8)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.5 0) (xy 1.5 2)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.5 2) (xy 17.5 2)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.5 -9.5) (xy 9.5 -8)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.5 -8) (xy 17.5 -8)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.5 -8) (xy 17.5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.5 0) (xy 19 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.5 2) (xy 17.5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 19 -3.5) (xy 17.5 -3.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 0)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 9.5 -9.5 90)
-				(length 0)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -3.5 0)
-				(length 0)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 19 -3.5 180)
-				(length 0)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 19 0 180)
-				(length 0)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "LDO_TPS7A2433DBVR"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" ""
-			(at 1.5 4 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" ""
-			(at 1.5 2.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "uv_meter_v1:SOT23-5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TPS7A24 200-mA, 18-V input voltage, Ultra-Low Iq, Low-Dropout Voltage Regulator"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "LDO_TPS7A2433DBVR_1_0"
-			(polyline
-				(pts
-					(xy 0 -3.5) (xy 1.5 -3.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 1.5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.5 -8) (xy 9.5 -8)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.5 0) (xy 1.5 -8)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.5 0) (xy 1.5 2)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.5 2) (xy 17.5 2)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.5 -9.5) (xy 9.5 -8)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.5 -8) (xy 17.5 -8)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.5 -8) (xy 17.5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.5 0) (xy 19 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.5 2) (xy 17.5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 19 -3.5) (xy 17.5 -3.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 0)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 9.5 -9.5 90)
-				(length 0)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -3.5 0)
-				(length 0)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 19 -3.5 180)
-				(length 0)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 19 0 180)
-				(length 0)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "LDO_TPS7A2450DBVR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4464,238 +3874,227 @@
 			)
 		)
 		(symbol "LDO_TPS7A2450DBVR_1_0"
-			(polyline
-				(pts
-					(xy 0 -3.5) (xy 1.5 -3.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 1.5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.5 -8) (xy 9.5 -8)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.5 0) (xy 1.5 -8)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.5 0) (xy 1.5 2)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.5 2) (xy 17.5 2)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.5 -9.5) (xy 9.5 -8)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.5 -8) (xy 17.5 -8)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.5 -8) (xy 17.5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.5 0) (xy 19 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.5 2) (xy 17.5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 19 -3.5) (xy 17.5 -3.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin bidirectional line
 				(at 0 0 0)
-				(length 0)
-				(name "VIN"
+				(length 2.5)
+				(name "V_{IN}"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 9.5 -9.5 90)
-				(length 0)
+				(at 10 -10 90)
+				(length 2.5)
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -3.5 0)
-				(length 0)
+				(at 0 -3.75 0)
+				(length 2.5)
 				(name "EN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 19 -3.5 180)
-				(length 0)
+				(at 21 -3.75 180)
+				(length 2.5)
 				(name "NC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 19 0 180)
-				(length 0)
-				(name "VOUT"
+				(at 21 0 180)
+				(length 2.5)
+				(name "V_{OUT}"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
+				)
+			)
+		)
+		(symbol "LDO_TPS7A2450DBVR_1_1"
+			(rectangle
+				(start 2.5 2.5)
+				(end 18.5 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
+	(symbol "LDO_TPS7A2418DBVR"
+		(extends "LDO_TPS7A2450DBVR")
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" ""
+			(at 1.5 4 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 1.5 2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:SOT23-5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TPS7A24 200-mA, 18-V input voltage, Ultra-Low Iq, Low-Dropout Voltage Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol "LDO_TPS7A2433DBVR" 
+		(extends "LDO_TPS7A2450DBVR")
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" ""
+			(at 1.5 4 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 1.5 2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:SOT23-5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TPS7A24 200-mA, 18-V input voltage, Ultra-Low Iq, Low-Dropout Voltage Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6374,16 +5773,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5 2.5 0)
+			(at 2.5 10 0)
 			(effects
 				(font
-					(size 1 0.85)
+					(size 1.25 1.25)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
-			(at 5 -13.5 0)
+		(property "Value" "Socket_STM32"
+			(at 1.5 -16 0)
 			(effects
 				(font
 					(size 1 0.85)
@@ -6392,16 +5791,17 @@
 			)
 		)
 		(property "Footprint" "uv_meter_v1:SOCKET_STM32"
-			(at 0 0 0)
+			(at 75 -2.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -3.5 -2.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6409,12 +5809,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "STM32 socket/carrier PCB used to speed HW prototyping and standardize I/Os"
+			(at 75 0 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.25 1.25)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6426,2287 +5827,976 @@
 				)
 			)
 		)
+		(property "ki_keywords" "STM32 socket carrier"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "SOCKET_STM32_1_0"
-			(polyline
-				(pts
-					(xy 3.5 -22.5) (xy 5 -22.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 -20) (xy 5 -20)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 -17.5) (xy 5 -17.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 -15) (xy 5 -15)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 -12.5) (xy 5 -12.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 -10) (xy 5 -10)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 -7.5) (xy 5 -7.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 -5) (xy 5 -5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 -2.5) (xy 5 -2.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 0) (xy 5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 2.5) (xy 5 2.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -34.5) (xy 5 -22.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -22.5) (xy 5 -20)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -20) (xy 5 -17.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -17.5) (xy 5 -15)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -15) (xy 5 -12.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -12.5) (xy 5 -10)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -10) (xy 5 -7.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -7.5) (xy 5 -5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -5) (xy 5 -2.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -2.5) (xy 5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 0) (xy 5 2.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 2.5) (xy 5 12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 12) (xy 15 12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15 -36) (xy 15 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15 -34.5) (xy 5 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15 12) (xy 15 13.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 15 12) (xy 17.5 12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.5 -36) (xy 17.5 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.5 -34.5) (xy 15 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.5 12) (xy 17.5 13.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.5 12) (xy 20 12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 20 -36) (xy 20 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 20 -34.5) (xy 17.5 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 20 12) (xy 20 13.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 20 12) (xy 22.5 12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 22.5 -36) (xy 22.5 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 22.5 -34.5) (xy 20 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 22.5 12) (xy 22.5 13.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 22.5 12) (xy 25 12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 25 -36) (xy 25 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 25 -34.5) (xy 22.5 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 25 12) (xy 25 13.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 25 12) (xy 27.5 12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 27.5 -36) (xy 27.5 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 27.5 -34.5) (xy 25 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 27.5 12) (xy 27.5 13.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 27.5 12) (xy 30 12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 30 -36) (xy 30 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 30 -34.5) (xy 27.5 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 30 12) (xy 30 13.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 30 12) (xy 32.5 12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 32.5 -36) (xy 32.5 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 32.5 -34.5) (xy 30 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 32.5 12) (xy 32.5 13.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 32.5 12) (xy 35 12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 35 -36) (xy 35 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 35 -34.5) (xy 32.5 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 35 12) (xy 35 13.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 35 12) (xy 37.5 12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 37.5 -36) (xy 37.5 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 37.5 -34.5) (xy 35 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 37.5 12) (xy 37.5 13.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 37.5 12) (xy 40 12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 40 -36) (xy 40 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 40 -34.5) (xy 37.5 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 40 12) (xy 40 13.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 40 12) (xy 50 12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 -34.5) (xy 40 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 -25) (xy 50 -34.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 -22.5) (xy 50 -25)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 -20) (xy 50 -22.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 -17.5) (xy 50 -20)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 -15) (xy 50 -17.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 -12.5) (xy 50 -15)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 -10) (xy 50 -12.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 -7.5) (xy 50 -10)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 -5) (xy 50 -7.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 -2.5) (xy 50 -5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 0) (xy 50 -2.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 2.5) (xy 50 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 50 12) (xy 50 2.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 51.5 -25) (xy 50 -25)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 51.5 -22.5) (xy 50 -22.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 51.5 -20) (xy 50 -20)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 51.5 -17.5) (xy 50 -17.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 51.5 -15) (xy 50 -15)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 51.5 -12.5) (xy 50 -12.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 51.5 -10) (xy 50 -10)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 51.5 -7.5) (xy 50 -7.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 51.5 -5) (xy 50 -5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 51.5 -2.5) (xy 50 -2.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 51.5 0) (xy 50 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 51.5 2.5) (xy 50 2.5)
-				)
+			(rectangle
+				(start 2.5 10)
+				(end 47.5 -37.5)
 				(stroke
-					(width 0.254)
-					(type solid)
+					(width 0)
+					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 -17.5 0)
-				(length 0)
+				(at 0 -20 0)
+				(length 2.5)
 				(name "PA0"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "11"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 -20 0)
-				(length 0)
+				(at 0 -22.5 0)
+				(length 2.5)
 				(name "PA1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "12"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 -22.5 0)
-				(length 0)
+				(at 0 -25 0)
+				(length 2.5)
 				(name "PA2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "13"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 15 -36 90)
-				(length 0)
+				(at 12.5 -40 90)
+				(length 2.5)
 				(name "PA3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "15"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 17.5 -36 90)
-				(length 0)
+				(at 15 -40 90)
+				(length 2.5)
 				(name "PA4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "17"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 20 -36 90)
-				(length 0)
+				(at 17.5 -40 90)
+				(length 2.5)
 				(name "PA5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "18"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 22.5 -36 90)
-				(length 0)
+				(at 20 -40 90)
+				(length 2.5)
 				(name "PA6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "19"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 2.5 0)
-				(length 0)
+				(at 0 0 0)
+				(length 2.5)
 				(name "PB9"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 25 -36 90)
-				(length 0)
+				(at 22.5 -40 90)
+				(length 2.5)
 				(name "PA7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "20"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 27.5 -36 90)
-				(length 0)
+				(at 25 -40 90)
+				(length 2.5)
 				(name "PC4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "21"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 30 -36 90)
-				(length 0)
+				(at 27.5 -40 90)
+				(length 2.5)
 				(name "PC5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "22"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 32.5 -36 90)
-				(length 0)
+				(at 30 -40 90)
+				(length 2.5)
 				(name "PB0"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "23"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 35 -36 90)
-				(length 0)
+				(at 32.5 -40 90)
+				(length 2.5)
 				(name "PB1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "24"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 37.5 -36 90)
-				(length 0)
+				(at 35 -40 90)
+				(length 2.5)
 				(name "PB2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "25"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 40 -36 90)
-				(length 0)
+				(at 37.5 -40 90)
+				(length 2.5)
 				(name "PB10"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "26"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 51.5 -25 180)
-				(length 0)
+				(at 50 -27.5 180)
+				(length 2.5)
 				(name "PB12"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "28"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 51.5 -22.5 180)
-				(length 0)
+				(at 50 -25 180)
+				(length 2.5)
 				(name "PB13"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "29"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 0 0)
-				(length 0)
+				(at 0 -2.5 0)
+				(length 2.5)
 				(name "PC13"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 51.5 -20 180)
-				(length 0)
+				(at 50 -22.5 180)
+				(length 2.5)
 				(name "PB14"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "30"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 51.5 -17.5 180)
-				(length 0)
+				(at 50 -20 180)
+				(length 2.5)
 				(name "PB15"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "31"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 51.5 -15 180)
-				(length 0)
+				(at 50 -17.5 180)
+				(length 2.5)
 				(name "PC6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "32"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 51.5 -12.5 180)
-				(length 0)
+				(at 50 -15 180)
+				(length 2.5)
 				(name "PC7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "33"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 51.5 -10 180)
-				(length 0)
+				(at 50 -12.5 180)
+				(length 2.5)
 				(name "PC8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "34"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 51.5 -7.5 180)
-				(length 0)
+				(at 50 -10 180)
+				(length 2.5)
 				(name "PC9"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "35"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 51.5 -5 180)
-				(length 0)
+				(at 50 -7.5 180)
+				(length 2.5)
 				(name "PA8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "36"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 51.5 -2.5 180)
-				(length 0)
+				(at 50 -5 180)
+				(length 2.5)
 				(name "PA9"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "37"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 51.5 0 180)
-				(length 0)
+				(at 50 -2.5 180)
+				(length 2.5)
 				(name "PA10"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "38"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 51.5 2.5 180)
-				(length 0)
+				(at 50 0 180)
+				(length 2.5)
 				(name "PA11"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "39"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 -2.5 0)
-				(length 0)
+				(at 0 -5 0)
+				(length 2.5)
 				(name "PC14"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 40 13.5 270)
-				(length 0)
+				(at 37.5 12.5 270)
+				(length 2.5)
 				(name "PA12"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "41"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 37.5 13.5 270)
-				(length 0)
+				(at 35 12.5 270)
+				(length 2.5)
 				(name "PA15"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "42"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 35 13.5 270)
-				(length 0)
+				(at 32.5 12.5 270)
+				(length 2.5)
 				(name "PC10"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "43"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 32.5 13.5 270)
-				(length 0)
+				(at 30 12.5 270)
+				(length 2.5)
 				(name "PC11"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "44"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 30 13.5 270)
-				(length 0)
+				(at 27.5 12.5 270)
+				(length 2.5)
 				(name "PC12"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "45"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 27.5 13.5 270)
-				(length 0)
+				(at 25 12.5 270)
+				(length 2.5)
 				(name "PD2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "46"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 25 13.5 270)
-				(length 0)
+				(at 22.5 12.5 270)
+				(length 2.5)
 				(name "PB4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "47"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 22.5 13.5 270)
-				(length 0)
+				(at 20 12.5 270)
+				(length 2.5)
 				(name "PB5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "48"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 20 13.5 270)
-				(length 0)
+				(at 17.5 12.5 270)
+				(length 2.5)
 				(name "PB6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "49"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 -5 0)
-				(length 0)
+				(at 0 -7.5 0)
+				(length 2.5)
 				(name "PC15"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 17.5 13.5 270)
-				(length 0)
+				(at 15 12.5 270)
+				(length 2.5)
 				(name "PB7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "50"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 15 13.5 270)
-				(length 0)
+				(at 12.5 12.5 270)
+				(length 2.5)
 				(name "PB8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "52"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 -7.5 0)
-				(length 0)
+				(at 0 -10 0)
+				(length 2.5)
 				(name "PC0"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 -10 0)
-				(length 0)
+				(at 0 -12.5 0)
+				(length 2.5)
 				(name "PC1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 -12.5 0)
-				(length 0)
+				(at 0 -15 0)
+				(length 2.5)
 				(name "PC2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 -15 0)
-				(length 0)
+				(at 0 -17.5 0)
+				(length 2.5)
 				(name "PC3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "9"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 		)
 		(symbol "SOCKET_STM32_2_0"
-			(polyline
-				(pts
-					(xy 3.5 -10) (xy 5 -10)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 -5) (xy 5 -5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 0) (xy 5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -12) (xy 5 -10)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -10) (xy 5 -5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -5) (xy 5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 0) (xy 5 2)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 2) (xy 26 2)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 26 -12) (xy 5 -12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 26 -7.5) (xy 26 -12)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 26 -7.5) (xy 27.5 -7.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 26 -5) (xy 26 -7.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 26 -5) (xy 27.5 -5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 26 -2.5) (xy 26 -5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 26 -2.5) (xy 27.5 -2.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 26 0) (xy 26 -2.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 26 0) (xy 27.5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 26 2) (xy 26 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin bidirectional line
-				(at 27.5 0 180)
-				(length 0)
+				(at 26 0 180)
+				(length 2.5)
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 -5 0)
-				(length 0)
-				(name "VDDA"
+				(at 0 -5 0)
+				(length 2.5)
+				(name "V_{DDA}"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "10"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 27.5 -2.5 180)
-				(length 0)
+				(at 26 -2.5 180)
+				(length 2.5)
 				(name "GND'"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "14"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 0 0)
-				(length 0)
-				(name "VDD"
+				(at 0 0 0)
+				(length 2.5)
+				(name "V_{DD}"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "16"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 27.5 -5 180)
-				(length 0)
+				(at 26 -5 180)
+				(length 2.5)
 				(name "GND''"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "27"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 27.5 -7.5 180)
-				(length 0)
+				(at 26 -7.5 180)
+				(length 2.5)
 				(name "GND'''"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "40"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 3.5 -10 0)
-				(length 0)
-				(name "BOOT0"
+				(at 0 -10 0)
+				(length 2.5)
+				(name "BOOT_{0}"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "51"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
+				)
+			)
+		)
+		(symbol "SOCKET_STM32_2_1"
+			(rectangle
+				(start 2.5 2.5)
+				(end 23.5 -12.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
