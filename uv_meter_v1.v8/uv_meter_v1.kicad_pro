@@ -429,7 +429,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "uv_meter_v1-eagle-import"
+    ]
   },
   "meta": {
     "filename": "uv_meter_v1.kicad_pro",
