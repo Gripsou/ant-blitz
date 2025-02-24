@@ -3979,126 +3979,6 @@
 			)
 		)
 	)
-	(symbol "LDO_TPS7A2418DBVR"
-		(extends "LDO_TPS7A2450DBVR")
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" ""
-			(at 1.5 4 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" ""
-			(at 1.5 2.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "uv_meter_v1:SOT23-5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TPS7A24 200-mA, 18-V input voltage, Ultra-Low Iq, Low-Dropout Voltage Regulator"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(symbol "LDO_TPS7A2433DBVR" 
-		(extends "LDO_TPS7A2450DBVR")
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" ""
-			(at 1.5 4 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" ""
-			(at 1.5 2.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "uv_meter_v1:SOT23-5"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "TPS7A24 200-mA, 18-V input voltage, Ultra-Low Iq, Low-Dropout Voltage Regulator"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(symbol "LED_GREEN_0805"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4712,34 +4592,33 @@
 		)
 	)
 	(symbol "LMV358"
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" ""
+		(property "Reference" "U"
 			(at 5 1.5 0)
 			(effects
 				(font
 					(size 1 0.85)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "LMV358"
 			(at 5 -5.5 0)
 			(effects
 				(font
 					(size 1 0.85)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "uv_meter_v1:SOIC8"
 			(at 0 0 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.25 1.25)
 				)
 				(hide yes)
 			)
@@ -4757,7 +4636,7 @@
 			(at 0 0 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.25 1.25)
 				)
 				(hide yes)
 			)
@@ -4770,101 +4649,26 @@
 				)
 			)
 		)
+		(property "ki_keywords" "OpAmp"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "LMV358_1_0"
 			(polyline
 				(pts
-					(xy 5 -4) (xy 9.5 -1.5)
+					(xy 5 -4) (xy 9.5 -1.5) (xy 5 1) (xy 5 -4)
 				)
 				(stroke
-					(width 0.254)
-					(type solid)
+					(width 0)
+					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -3) (xy 0 -3)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -3) (xy 5 -4)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 0) (xy 0 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 0) (xy 5 -3)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 1) (xy 5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.5 -1.5) (xy 5 1)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.5 -1.5) (xy 14.5 -1.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(text "+"
@@ -4886,55 +4690,55 @@
 				)
 			)
 			(pin bidirectional line
-				(at 14.58 -1.5 0)
-				(length 0)
+				(at 14.5 -1.5 180)
+				(length 5)
 				(name "OUT"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0.08 0 0)
-				(length 0)
+				(at 0 0 0)
+				(length 5)
 				(name "IN-"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0.08 -3 0)
-				(length 0)
+				(at 0 -3 0)
+				(length 5)
 				(name "IN+"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
@@ -4943,98 +4747,14 @@
 		(symbol "LMV358_2_0"
 			(polyline
 				(pts
-					(xy 5 -4) (xy 9.5 -1.5)
+					(xy 5 1) (xy 9.5 -1.5) (xy 5 -4) (xy 5 1)
 				)
 				(stroke
-					(width 0.254)
-					(type solid)
+					(width 0)
+					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -3) (xy 0 -3)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -3) (xy 5 -4)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 0) (xy 0 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 0) (xy 5 -3)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 1) (xy 5 0)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.5 -1.5) (xy 5 1)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 9.5 -1.5) (xy 14.5 -1.5)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(text "+"
@@ -5056,55 +4776,55 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0.08 -3 0)
-				(length 0)
+				(at 0 -3 0)
+				(length 5)
 				(name "IN+"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0.08 0 0)
-				(length 0)
+				(at 0 0 0)
+				(length 5)
 				(name "IN-"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 14.58 -1.5 0)
-				(length 0)
+				(at 14.5 -1.5 180)
+				(length 5)
 				(name "OUT"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
@@ -5116,7 +4836,7 @@
 					(xy 0 0) (xy 0 3.5)
 				)
 				(stroke
-					(width 0.1)
+					(width 0)
 					(type solid)
 				)
 				(fill
@@ -5128,7 +4848,7 @@
 					(xy 0 3.5) (xy -1 3.5)
 				)
 				(stroke
-					(width 0.1)
+					(width 0)
 					(type solid)
 				)
 				(fill
@@ -5140,56 +4860,11 @@
 					(xy 0 3.5) (xy 1 3.5)
 				)
 				(stroke
-					(width 0.1)
+					(width 0)
 					(type solid)
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7 3.5) (xy 8 3.5)
-				)
-				(stroke
-					(width 0.1)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8 0) (xy 8 3.5)
-				)
-				(stroke
-					(width 0.1)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8 3.5) (xy 9 3.5)
-				)
-				(stroke
-					(width 0.1)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "VCC+"
-				(at 6 4 0)
-				(effects
-					(font
-						(size 1 0.85)
-					)
-					(justify left bottom)
 				)
 			)
 			(text "VCC-"
@@ -5203,36 +4878,83 @@
 			)
 			(pin bidirectional line
 				(at 0 0 0)
-				(length 0)
+				(length 0) hide
 				(name "VCC-"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 			)
+		)
+		(symbol "LMV358_4_0"
+			(polyline
+				(pts
+					(xy -1 3.5) (xy 0 3.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 3.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.5) (xy 1 3.5)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "VCC+"
+				(at -2 4 0)
+				(effects
+					(font
+						(size 1 0.85)
+					)
+					(justify left bottom)
+				)
+			)
 			(pin bidirectional line
-				(at 8 0 0)
-				(length 0)
+				(at 0 0 0)
+				(length 0) hide
 				(name "VCC+"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
@@ -6798,6 +6520,104 @@
 				(fill
 					(type background)
 				)
+			)
+		)
+	)
+	(symbol "LDO_TPS7A2418DBVR"
+		(extends "LDO_TPS7A2450DBVR")
+		(property "Reference" ""
+			(at 1.5 4 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 1.5 2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:SOT23-5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TPS7A24 200-mA, 18-V input voltage, Ultra-Low Iq, Low-Dropout Voltage Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "LDO_TPS7A2433DBVR"
+		(extends "LDO_TPS7A2450DBVR")
+		(property "Reference" ""
+			(at 1.5 4 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 1.5 2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:SOT23-5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TPS7A24 200-mA, 18-V input voltage, Ultra-Low Iq, Low-Dropout Voltage Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)

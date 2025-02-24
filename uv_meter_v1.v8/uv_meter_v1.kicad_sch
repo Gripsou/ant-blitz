@@ -4923,34 +4923,33 @@
 			)
 		)
 		(symbol "uv_meter_v1-eagle-import:LMV358"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
+			(property "Reference" "U"
 				(at 5 1.5 0)
 				(effects
 					(font
 						(size 1 0.85)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "LMV358"
 				(at 5 -5.5 0)
 				(effects
 					(font
 						(size 1 0.85)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "uv_meter_v1:SOIC8"
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.25 1.25)
 					)
 					(hide yes)
 				)
@@ -4968,7 +4967,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.25 1.25)
 					)
 					(hide yes)
 				)
@@ -4981,101 +4980,26 @@
 					)
 				)
 			)
+			(property "ki_keywords" "OpAmp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "LMV358_1_0"
 				(polyline
 					(pts
-						(xy 5 -4) (xy 9.5 -1.5)
+						(xy 5 -4) (xy 9.5 -1.5) (xy 5 1) (xy 5 -4)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 -3) (xy 0 -3)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 -3) (xy 5 -4)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 0) (xy 5 -3)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 1) (xy 5 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.5 -1.5) (xy 5 1)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.5 -1.5) (xy 14.5 -1.5)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(text "+"
@@ -5097,55 +5021,55 @@
 					)
 				)
 				(pin bidirectional line
-					(at 14.58 -1.5 0)
-					(length 0)
+					(at 14.5 -1.5 180)
+					(length 5)
 					(name "OUT"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.25 1.25)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at 0.08 0 0)
-					(length 0)
+					(at 0 0 0)
+					(length 5)
 					(name "IN-"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.25 1.25)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at 0.08 -3 0)
-					(length 0)
+					(at 0 -3 0)
+					(length 5)
 					(name "IN+"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.25 1.25)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
@@ -5154,98 +5078,14 @@
 			(symbol "LMV358_2_0"
 				(polyline
 					(pts
-						(xy 5 -4) (xy 9.5 -1.5)
+						(xy 5 1) (xy 9.5 -1.5) (xy 5 -4) (xy 5 1)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 -3) (xy 0 -3)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 -3) (xy 5 -4)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 0) (xy 5 -3)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5 1) (xy 5 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.5 -1.5) (xy 5 1)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.5 -1.5) (xy 14.5 -1.5)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(text "+"
@@ -5267,55 +5107,55 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0.08 -3 0)
-					(length 0)
+					(at 0 -3 0)
+					(length 5)
 					(name "IN+"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.25 1.25)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at 0.08 0 0)
-					(length 0)
+					(at 0 0 0)
+					(length 5)
 					(name "IN-"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.25 1.25)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
 				)
 				(pin bidirectional line
-					(at 14.58 -1.5 0)
-					(length 0)
+					(at 14.5 -1.5 180)
+					(length 5)
 					(name "OUT"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.25 1.25)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
@@ -5327,7 +5167,7 @@
 						(xy 0 0) (xy 0 3.5)
 					)
 					(stroke
-						(width 0.1)
+						(width 0)
 						(type solid)
 					)
 					(fill
@@ -5339,7 +5179,7 @@
 						(xy 0 3.5) (xy -1 3.5)
 					)
 					(stroke
-						(width 0.1)
+						(width 0)
 						(type solid)
 					)
 					(fill
@@ -5351,56 +5191,11 @@
 						(xy 0 3.5) (xy 1 3.5)
 					)
 					(stroke
-						(width 0.1)
+						(width 0)
 						(type solid)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7 3.5) (xy 8 3.5)
-					)
-					(stroke
-						(width 0.1)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8 0) (xy 8 3.5)
-					)
-					(stroke
-						(width 0.1)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8 3.5) (xy 9 3.5)
-					)
-					(stroke
-						(width 0.1)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "VCC+"
-					(at 6 4 0)
-					(effects
-						(font
-							(size 1 0.85)
-						)
-						(justify left bottom)
 					)
 				)
 				(text "VCC-"
@@ -5414,36 +5209,83 @@
 				)
 				(pin bidirectional line
 					(at 0 0 0)
-					(length 0)
+					(length 0) hide
 					(name "VCC-"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
 				)
+			)
+			(symbol "LMV358_4_0"
+				(polyline
+					(pts
+						(xy -1 3.5) (xy 0 3.5)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 3.5)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.5) (xy 1 3.5)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "VCC+"
+					(at -2 4 0)
+					(effects
+						(font
+							(size 1 0.85)
+						)
+						(justify left bottom)
+					)
+				)
 				(pin bidirectional line
-					(at 8 0 0)
-					(length 0)
+					(at 0 0 0)
+					(length 0) hide
 					(name "VCC+"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.25 1.25)
 							)
 						)
 					)
@@ -7056,6 +6898,12 @@
 		(uuid "1f231bc3-a806-44ef-8eaa-f736bb8961b3")
 	)
 	(junction
+		(at 303.67 54.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2743e8cc-4d76-4b3f-bad4-228a56d49daa")
+	)
+	(junction
 		(at 287.28 45.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7068,12 +6916,6 @@
 		(uuid "2c7ec7af-4358-447b-a6ae-a0d4a92a229a")
 	)
 	(junction
-		(at 324.78 48.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32438c1e-3a77-4c0e-ad02-81c83204385c")
-	)
-	(junction
 		(at 265.78 117.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7084,6 +6926,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3719b61a-90b0-4e3b-804a-16a32a443bbd")
+	)
+	(junction
+		(at 272.75 56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38262262-2328-47fe-b8f8-e089c064e67c")
 	)
 	(junction
 		(at 82.5 171.25)
@@ -7126,6 +6974,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "409f18f7-a3fe-4037-81ae-cdb02bf8d0dd")
+	)
+	(junction
+		(at 324.75 48.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40cf437d-1454-4110-874c-367c6c8c1a85")
 	)
 	(junction
 		(at 60 135)
@@ -7302,12 +7156,6 @@
 		(uuid "e01c4e02-ca7c-403f-9592-2b284e9adefe")
 	)
 	(junction
-		(at 272.78 55.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e454ecdd-4891-4dd1-a3a3-b4605dea57a4")
-	)
-	(junction
 		(at 38.28 171.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7346,6 +7194,16 @@
 			(type solid)
 		)
 		(uuid "00471f5e-54ff-4446-b21c-baee4c541226")
+	)
+	(wire
+		(pts
+			(xy 270.5 56) (xy 272.75 56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b58c6c-9f6c-4c01-a042-2fa6ef474c09")
 	)
 	(wire
 		(pts
@@ -7419,7 +7277,7 @@
 	)
 	(wire
 		(pts
-			(xy 324.78 41.5) (xy 324.78 39.42)
+			(xy 324.75 41.5) (xy 324.75 39.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -7439,7 +7297,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.7 45.92) (xy 303.78 45.92)
+			(xy 297.7 45.92) (xy 303.67 45.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -7459,17 +7317,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.78 54.42) (xy 301.36 54.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "083b250f-332b-4af0-a4ba-de8810ec95c1")
-	)
-	(wire
-		(pts
-			(xy 252.78 57.42) (xy 252.78 63.42)
+			(xy 252.78 57.5) (xy 252.78 63.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -7496,6 +7344,26 @@
 			(type solid)
 		)
 		(uuid "0a524f82-c67f-48eb-9a32-4067ab564424")
+	)
+	(wire
+		(pts
+			(xy 239.67 54.5) (xy 239.67 54.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ab8cd20-d4ff-4ae5-9197-1779e69ed13f")
+	)
+	(wire
+		(pts
+			(xy 272.75 55) (xy 272.78 55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b4e2f22-b001-48b5-9b08-f8874ea8bbc9")
 	)
 	(wire
 		(pts
@@ -7619,7 +7487,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.78 48.42) (xy 324.78 48.42)
+			(xy 316.78 48.42) (xy 324.75 48.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -7736,6 +7604,16 @@
 			(type solid)
 		)
 		(uuid "1965cb0a-a665-4b61-8497-89e02963a122")
+	)
+	(wire
+		(pts
+			(xy 272.75 56) (xy 286.75 56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c650698-d64b-48a7-a89f-657d26cf2efb")
 	)
 	(wire
 		(pts
@@ -7919,7 +7797,7 @@
 	)
 	(wire
 		(pts
-			(xy 324.78 48.42) (xy 324.78 47.34)
+			(xy 324.75 48.42) (xy 324.75 47.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -7989,16 +7867,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.86 57.42) (xy 252.78 57.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2d4ad23f-8d42-457b-9512-de089df392ee")
-	)
-	(wire
-		(pts
 			(xy 94.78 132.14) (xy 94.78 135.22)
 		)
 		(stroke
@@ -8036,16 +7904,6 @@
 			(type solid)
 		)
 		(uuid "300e06e7-d5dc-4a4e-a8a3-850266becb2a")
-	)
-	(wire
-		(pts
-			(xy 252.28 63.42) (xy 253.28 63.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "30aaaceb-dab2-473a-8466-5df160ae3a2d")
 	)
 	(wire
 		(pts
@@ -8259,7 +8117,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.78 45.92) (xy 303.78 54.42)
+			(xy 303.67 45.92) (xy 303.67 54.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -8719,16 +8577,6 @@
 	)
 	(wire
 		(pts
-			(xy 272.78 54.92) (xy 272.78 55.92)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5efb0a7e-9066-4c77-b97b-4ae6f26bdb29")
-	)
-	(wire
-		(pts
 			(xy 288.78 109.42) (xy 288.78 110.42)
 		)
 		(stroke
@@ -8799,23 +8647,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.78 45.92) (xy 283.78 52.92)
+			(xy 283.67 45.92) (xy 283.67 53)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "63ab1c55-1bb5-4fe7-9fcc-b2e7e677cc76")
-	)
-	(wire
-		(pts
-			(xy 270.36 55.92) (xy 272.78 55.92)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "64738beb-6127-445d-82a3-9abd913c7077")
 	)
 	(wire
 		(pts
@@ -9109,6 +8947,16 @@
 	)
 	(wire
 		(pts
+			(xy 324.75 48.42) (xy 324.78 48.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7bf32890-af73-4579-b6b9-170c250a7769")
+	)
+	(wire
+		(pts
 			(xy 381.78 156.92) (xy 381.78 159.38)
 		)
 		(stroke
@@ -9349,6 +9197,16 @@
 	)
 	(wire
 		(pts
+			(xy 272.78 55) (xy 272.78 54.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "914f8ba2-8d2d-400f-8af9-0c754be9bab4")
+	)
+	(wire
+		(pts
 			(xy 93.25 92.17) (xy 93.25 92.5)
 		)
 		(stroke
@@ -9369,7 +9227,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.78 54.42) (xy 306.78 54.42)
+			(xy 303.67 54.5) (xy 303.92 54.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -9406,6 +9264,26 @@
 			(type solid)
 		)
 		(uuid "95bd763f-d078-452d-948c-1b8a62b78048")
+	)
+	(wire
+		(pts
+			(xy 256 57.5) (xy 255.75 57.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f053d0-b23a-4bbd-b2fb-f62f87a6da95")
+	)
+	(wire
+		(pts
+			(xy 239.67 54.5) (xy 256 54.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "974874fc-4fce-4895-8bfd-26d33f528694")
 	)
 	(wire
 		(pts
@@ -9479,16 +9357,6 @@
 	)
 	(wire
 		(pts
-			(xy 272.78 55.92) (xy 286.86 55.92)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9cd974e0-e1c3-41f6-91ea-a009d544d0a5")
-	)
-	(wire
-		(pts
 			(xy 317.28 88.84) (xy 317.28 90.42)
 		)
 		(stroke
@@ -9536,16 +9404,6 @@
 			(type solid)
 		)
 		(uuid "a31281cb-9460-4d55-924b-5610a9935142")
-	)
-	(wire
-		(pts
-			(xy 255.86 54.42) (xy 239.78 54.42)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a340daaa-c8c0-461c-8fcc-fd7fc3046c53")
 	)
 	(polyline
 		(pts
@@ -9799,6 +9657,16 @@
 	)
 	(wire
 		(pts
+			(xy 239.67 54.42) (xy 239.78 54.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b5bbcd16-943f-4bef-821b-c33c5e482b60")
+	)
+	(wire
+		(pts
 			(xy 370.78 110.84) (xy 370.78 112.92)
 		)
 		(stroke
@@ -9939,6 +9807,16 @@
 	)
 	(wire
 		(pts
+			(xy 272.75 55) (xy 272.75 56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c0c84f4c-efad-4e6e-a1a6-965f1a57cae2")
+	)
+	(wire
+		(pts
 			(xy 301.78 40.92) (xy 302.78 40.92)
 		)
 		(stroke
@@ -9999,7 +9877,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.28 45.92) (xy 283.78 45.92)
+			(xy 287.28 45.92) (xy 283.67 45.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -10149,7 +10027,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.78 52.92) (xy 286.86 52.92)
+			(xy 283.67 53) (xy 286.75 53)
 		)
 		(stroke
 			(width 0.1524)
@@ -10289,6 +10167,16 @@
 	)
 	(wire
 		(pts
+			(xy 301.25 54.5) (xy 303.67 54.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "df87dd23-33fa-4c90-a183-e995a7832812")
+	)
+	(wire
+		(pts
 			(xy 73.5 158.75) (xy 82.5 158.75)
 		)
 		(stroke
@@ -10409,6 +10297,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.78 57.5) (xy 255.75 57.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e6dcef9d-1701-499e-9914-2c2bd4e2dc27")
+	)
+	(wire
+		(pts
 			(xy 258.78 90.42) (xy 265.78 90.42)
 		)
 		(stroke
@@ -10436,6 +10334,16 @@
 			(type solid)
 		)
 		(uuid "e8b56d6d-f90c-48cd-b1ca-43af0ad8427c")
+	)
+	(wire
+		(pts
+			(xy 303.92 54.5) (xy 303.92 54.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e8fe0f5d-e660-47c7-845a-d4105fdded2f")
 	)
 	(wire
 		(pts
@@ -10536,6 +10444,16 @@
 			(type solid)
 		)
 		(uuid "f126e418-4aeb-4567-bf0c-cbf9d659bb1f")
+	)
+	(wire
+		(pts
+			(xy 303.92 54.42) (xy 306.78 54.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f1b2d1d7-6d39-47bf-b62f-dcb6fa039bb2")
 	)
 	(wire
 		(pts
@@ -10880,7 +10798,7 @@
 		(uuid "1349f2e9-e0b1-43e7-9857-b85cec550e74")
 	)
 	(label "+3V3_ANALOG"
-		(at 324.78 39.42 0)
+		(at 324.75 40 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -11698,7 +11616,7 @@
 	)
 	(symbol
 		(lib_id "uv_meter_v1-eagle-import:0.1UF")
-		(at 324.78 41.42 0)
+		(at 324.75 41.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11706,7 +11624,7 @@
 		(dnp no)
 		(uuid "0b7694de-4797-4e11-8796-45442e576cfa")
 		(property "Reference" "C302"
-			(at 328.28 43.42 90)
+			(at 327.5 43.5 0)
 			(effects
 				(font
 					(size 1 0.85)
@@ -11715,7 +11633,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 328.28 45.42 90)
+			(at 327.5 45 0)
 			(effects
 				(font
 					(size 1 0.85)
@@ -11724,7 +11642,7 @@
 			)
 		)
 		(property "Footprint" "uv_meter_v1:0805_GRM"
-			(at 324.78 41.42 0)
+			(at 324.75 41.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11733,7 +11651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 324.78 41.42 0)
+			(at 324.75 41.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11742,7 +11660,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 324.78 41.42 0)
+			(at 324.75 41.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12562,30 +12480,28 @@
 		(dnp no)
 		(uuid "37be0971-ef9d-4294-87cb-98424b113d23")
 		(property "Reference" "U301"
-			(at 321.78 37.92 0)
+			(at 315 32.5 0)
 			(effects
 				(font
 					(size 1 0.85)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "LMV358"
-			(at 321.78 44.92 0)
+			(at 315 38.75 0)
 			(effects
 				(font
 					(size 1 0.85)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "uv_meter_v1:SOIC8"
 			(at 316.78 39.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.25 1.25)
 				)
 				(hide yes)
 			)
@@ -12599,11 +12515,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC OPAMP 2 CIRCUIT 8-SOIC\n\nGeneral Purpose Amplifier 2 Circuit Rail-to-Rail in 8-SOIC package\n\nNOTES :\n\n• Link to https://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf datasheet from STMicroelectronics\n• Link to https://www.ti.com/lit/ds/symlink/lmv358.pdf?ts=1609253015798 datasheet from Texas Instruments"
 			(at 316.78 39.42 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.25 1.25)
 				)
 				(hide yes)
 			)
@@ -13730,6 +13646,93 @@
 		)
 	)
 	(symbol
+		(lib_id "uv_meter_v1-eagle-import:LMV358")
+		(at 324.75 39.5 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "986f7deb-52b5-40d1-ad4f-fac4ebc199c1")
+		(property "Reference" "U301"
+			(at 322.5 32.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LMV358"
+			(at 322.5 37.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:SOIC8"
+			(at 324.75 39.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 324.75 39.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC OPAMP 2 CIRCUIT 8-SOIC\n\nGeneral Purpose Amplifier 2 Circuit Rail-to-Rail in 8-SOIC package\n\nNOTES :\n\n• Link to https://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf datasheet from STMicroelectronics\n• Link to https://www.ti.com/lit/ds/symlink/lmv358.pdf?ts=1609253015798 datasheet from Texas Instruments"
+			(at 324.75 39.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "61863b1d-3d39-4d1e-b577-1a7589d72840")
+		)
+		(pin "5"
+			(uuid "d96051b9-0303-4462-a008-07972adde6f5")
+		)
+		(pin "6"
+			(uuid "87c76d85-968e-4bce-969d-6e958b99362f")
+		)
+		(pin "8"
+			(uuid "423ef87d-43d0-46ea-a455-beb15f6db2cb")
+		)
+		(pin "1"
+			(uuid "fc298020-f549-4036-b5fb-f64817b36bf6")
+		)
+		(pin "2"
+			(uuid "8abd247a-e82d-49a3-8f54-46c88912e427")
+		)
+		(pin "7"
+			(uuid "422103c8-8fc1-4315-920b-9d8c27628373")
+		)
+		(pin "4"
+			(uuid "b5ed5c04-7f6c-4f03-b4a3-29cc95139f56")
+		)
+		(instances
+			(project ""
+				(path "/3a329ad0-b30f-4b15-8912-db8eddfc2d98"
+					(reference "U301")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "uv_meter_v1-eagle-import:0.1UF")
 		(at 258.78 45.42 90)
 		(unit 1)
@@ -13869,7 +13872,7 @@
 	)
 	(symbol
 		(lib_id "uv_meter_v1-eagle-import:LMV358")
-		(at 286.78 52.92 0)
+		(at 286.75 53 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13877,7 +13880,7 @@
 		(dnp no)
 		(uuid "b67ce9ff-203f-4bca-bdb3-7c6f5ef7119f")
 		(property "Reference" "U301"
-			(at 289.28 51.42 0)
+			(at 289.25 51.5 0)
 			(effects
 				(font
 					(size 1 0.85)
@@ -13886,7 +13889,7 @@
 			)
 		)
 		(property "Value" "LMV358"
-			(at 288.78 59.42 0)
+			(at 288.75 59.5 0)
 			(effects
 				(font
 					(size 1 0.85)
@@ -13895,16 +13898,16 @@
 			)
 		)
 		(property "Footprint" "uv_meter_v1:SOIC8"
-			(at 286.78 52.92 0)
+			(at 286.75 53 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.25 1.25)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 286.78 52.92 0)
+			(at 286.75 53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13912,11 +13915,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 286.78 52.92 0)
+		(property "Description" "IC OPAMP 2 CIRCUIT 8-SOIC\n\nGeneral Purpose Amplifier 2 Circuit Rail-to-Rail in 8-SOIC package\n\nNOTES :\n\n• Link to https://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf datasheet from STMicroelectronics\n• Link to https://www.ti.com/lit/ds/symlink/lmv358.pdf?ts=1609253015798 datasheet from Texas Instruments"
+			(at 286.75 53 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.25 1.25)
 				)
 				(hide yes)
 			)
@@ -14310,7 +14313,7 @@
 	)
 	(symbol
 		(lib_id "uv_meter_v1-eagle-import:LMV358")
-		(at 255.78 54.42 0)
+		(at 256 54.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14318,7 +14321,7 @@
 		(dnp no)
 		(uuid "d63b6c4e-eab7-46ec-8718-c56c9707c03a")
 		(property "Reference" "U301"
-			(at 258.78 52.42 0)
+			(at 259 52.5 0)
 			(effects
 				(font
 					(size 1 0.85)
@@ -14327,7 +14330,7 @@
 			)
 		)
 		(property "Value" "LMV358"
-			(at 257.78 60.42 0)
+			(at 258 60.5 0)
 			(effects
 				(font
 					(size 1 0.85)
@@ -14336,16 +14339,16 @@
 			)
 		)
 		(property "Footprint" "uv_meter_v1:SOIC8"
-			(at 255.78 54.42 0)
+			(at 256 54.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.25 1.25)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.78 54.42 0)
+			(at 256 54.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14353,11 +14356,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 255.78 54.42 0)
+		(property "Description" "IC OPAMP 2 CIRCUIT 8-SOIC\n\nGeneral Purpose Amplifier 2 Circuit Rail-to-Rail in 8-SOIC package\n\nNOTES :\n\n• Link to https://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf datasheet from STMicroelectronics\n• Link to https://www.ti.com/lit/ds/symlink/lmv358.pdf?ts=1609253015798 datasheet from Texas Instruments"
+			(at 256 54.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.25 1.25)
 				)
 				(hide yes)
 			)
