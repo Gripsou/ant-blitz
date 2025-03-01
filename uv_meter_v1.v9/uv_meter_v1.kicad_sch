@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241209)
+	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "8bdb34a3-73e3-4b7e-87ea-6793e83f1916")
@@ -2097,7 +2097,7 @@
 			(symbol "BUTTON_PTS64_1_0"
 				(polyline
 					(pts
-						(xy 3 0) (xy 5 1)
+						(xy 3 0) (xy 0 0)
 					)
 					(stroke
 						(width 0.254)
@@ -2109,7 +2109,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3 0) (xy 0 0)
+						(xy 3 0) (xy 5 1)
 					)
 					(stroke
 						(width 0.254)
@@ -2157,7 +2157,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5 1) (xy 7 2)
+						(xy 5 1) (xy 5 3)
 					)
 					(stroke
 						(width 0.254)
@@ -2169,7 +2169,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5 1) (xy 5 3)
+						(xy 5 1) (xy 7 2)
 					)
 					(stroke
 						(width 0.254)
@@ -3108,7 +3108,7 @@
 				)
 				(polyline
 					(pts
-						(xy 21.5 -21.5) (xy 23 -21.5)
+						(xy 21.5 -21.5) (xy 21.5 -24)
 					)
 					(stroke
 						(width 0.254)
@@ -3120,7 +3120,7 @@
 				)
 				(polyline
 					(pts
-						(xy 21.5 -21.5) (xy 21.5 -24)
+						(xy 21.5 -21.5) (xy 23 -21.5)
 					)
 					(stroke
 						(width 0.254)
@@ -4222,7 +4222,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.5 0) (xy 1.5 -8)
+						(xy 1.5 0) (xy 1.5 2)
 					)
 					(stroke
 						(width 0.254)
@@ -4234,7 +4234,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.5 0) (xy 1.5 2)
+						(xy 1.5 0) (xy 1.5 -8)
 					)
 					(stroke
 						(width 0.254)
@@ -5134,7 +5134,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5 -3) (xy 5 -4)
+						(xy 5 -3) (xy 0 -3)
 					)
 					(stroke
 						(width 0.254)
@@ -5146,7 +5146,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5 -3) (xy 0 -3)
+						(xy 5 -3) (xy 5 -4)
 					)
 					(stroke
 						(width 0.254)
@@ -5170,7 +5170,7 @@
 				)
 				(polyline
 					(pts
-						(xy 9.5 -1.5) (xy 14.5 -1.5)
+						(xy 9.5 -1.5) (xy 5 1)
 					)
 					(stroke
 						(width 0.254)
@@ -5182,7 +5182,7 @@
 				)
 				(polyline
 					(pts
-						(xy 9.5 -1.5) (xy 5 1)
+						(xy 9.5 -1.5) (xy 14.5 -1.5)
 					)
 					(stroke
 						(width 0.254)
@@ -5340,7 +5340,7 @@
 				)
 				(polyline
 					(pts
-						(xy 9.5 -1.5) (xy 14.5 -1.5)
+						(xy 9.5 -1.5) (xy 5 1)
 					)
 					(stroke
 						(width 0.254)
@@ -5352,7 +5352,7 @@
 				)
 				(polyline
 					(pts
-						(xy 9.5 -1.5) (xy 5 1)
+						(xy 9.5 -1.5) (xy 14.5 -1.5)
 					)
 					(stroke
 						(width 0.254)
@@ -6287,18 +6287,6 @@
 				)
 				(polyline
 					(pts
-						(xy 26 -2.5) (xy 27.5 -2.5)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 26 -2.5) (xy 26 -5)
 					)
 					(stroke
@@ -6311,7 +6299,7 @@
 				)
 				(polyline
 					(pts
-						(xy 26 -5) (xy 27.5 -5)
+						(xy 26 -2.5) (xy 27.5 -2.5)
 					)
 					(stroke
 						(width 0.254)
@@ -6335,7 +6323,7 @@
 				)
 				(polyline
 					(pts
-						(xy 26 -7.5) (xy 27.5 -7.5)
+						(xy 26 -5) (xy 27.5 -5)
 					)
 					(stroke
 						(width 0.254)
@@ -6348,6 +6336,18 @@
 				(polyline
 					(pts
 						(xy 26 -7.5) (xy 26 -12)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26 -7.5) (xy 27.5 -7.5)
 					)
 					(stroke
 						(width 0.254)
@@ -6787,7 +6787,7 @@
 				)
 				(polyline
 					(pts
-						(xy 15 12) (xy 17.5 12)
+						(xy 15 12) (xy 15 13.5)
 					)
 					(stroke
 						(width 0.254)
@@ -6799,7 +6799,7 @@
 				)
 				(polyline
 					(pts
-						(xy 15 12) (xy 15 13.5)
+						(xy 15 12) (xy 17.5 12)
 					)
 					(stroke
 						(width 0.254)
@@ -6835,7 +6835,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.5 12) (xy 20 12)
+						(xy 17.5 12) (xy 17.5 13.5)
 					)
 					(stroke
 						(width 0.254)
@@ -6847,7 +6847,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.5 12) (xy 17.5 13.5)
+						(xy 17.5 12) (xy 20 12)
 					)
 					(stroke
 						(width 0.254)
@@ -6883,7 +6883,7 @@
 				)
 				(polyline
 					(pts
-						(xy 20 12) (xy 22.5 12)
+						(xy 20 12) (xy 20 13.5)
 					)
 					(stroke
 						(width 0.254)
@@ -6895,7 +6895,7 @@
 				)
 				(polyline
 					(pts
-						(xy 20 12) (xy 20 13.5)
+						(xy 20 12) (xy 22.5 12)
 					)
 					(stroke
 						(width 0.254)
@@ -7027,7 +7027,7 @@
 				)
 				(polyline
 					(pts
-						(xy 27.5 12) (xy 30 12)
+						(xy 27.5 12) (xy 27.5 13.5)
 					)
 					(stroke
 						(width 0.254)
@@ -7039,7 +7039,7 @@
 				)
 				(polyline
 					(pts
-						(xy 27.5 12) (xy 27.5 13.5)
+						(xy 27.5 12) (xy 30 12)
 					)
 					(stroke
 						(width 0.254)
@@ -7075,7 +7075,7 @@
 				)
 				(polyline
 					(pts
-						(xy 30 12) (xy 32.5 12)
+						(xy 30 12) (xy 30 13.5)
 					)
 					(stroke
 						(width 0.254)
@@ -7087,7 +7087,7 @@
 				)
 				(polyline
 					(pts
-						(xy 30 12) (xy 30 13.5)
+						(xy 30 12) (xy 32.5 12)
 					)
 					(stroke
 						(width 0.254)
@@ -7123,7 +7123,7 @@
 				)
 				(polyline
 					(pts
-						(xy 32.5 12) (xy 35 12)
+						(xy 32.5 12) (xy 32.5 13.5)
 					)
 					(stroke
 						(width 0.254)
@@ -7135,7 +7135,7 @@
 				)
 				(polyline
 					(pts
-						(xy 32.5 12) (xy 32.5 13.5)
+						(xy 32.5 12) (xy 35 12)
 					)
 					(stroke
 						(width 0.254)
@@ -7219,7 +7219,7 @@
 				)
 				(polyline
 					(pts
-						(xy 37.5 12) (xy 40 12)
+						(xy 37.5 12) (xy 37.5 13.5)
 					)
 					(stroke
 						(width 0.254)
@@ -7231,7 +7231,7 @@
 				)
 				(polyline
 					(pts
-						(xy 37.5 12) (xy 37.5 13.5)
+						(xy 37.5 12) (xy 40 12)
 					)
 					(stroke
 						(width 0.254)
@@ -7267,7 +7267,7 @@
 				)
 				(polyline
 					(pts
-						(xy 40 12) (xy 50 12)
+						(xy 40 12) (xy 40 13.5)
 					)
 					(stroke
 						(width 0.254)
@@ -7279,7 +7279,7 @@
 				)
 				(polyline
 					(pts
-						(xy 40 12) (xy 40 13.5)
+						(xy 40 12) (xy 50 12)
 					)
 					(stroke
 						(width 0.254)
