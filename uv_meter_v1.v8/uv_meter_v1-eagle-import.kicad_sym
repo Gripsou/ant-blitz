@@ -4966,7 +4966,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5 3.5 0)
+			(at -7.5 6 0)
 			(effects
 				(font
 					(size 1 0.85)
@@ -4974,34 +4974,46 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
-			(at 5 -16.5 0)
+		(property "Value" "MPC2562"
+			(at -7.5 -8.5 0)
 			(effects
 				(font
 					(size 1 0.85)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "uv_meter_v1:SO_8"
-			(at 0 0 0)
+			(at 50 -2.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.25 1.25)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005167C.pdf"
+			(at 50 -5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.25 1.25)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "1/1 Transceiver Half CANbus 8-SOIC"
+			(at 50 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "CAN transceiver microchip"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5010,205 +5022,162 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "MPC2562_1_0"
-			(polyline
-				(pts
-					(xy 5 -15) (xy 5 3)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 3) (xy 23.5 3)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 23.5 -15) (xy 5 -15)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 23.5 3) (xy 23.5 -15)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin bidirectional line
-				(at 0 -8 0)
-				(length 5.08)
-				(name "TXD"
+				(at -10 -2.5 0)
+				(length 2.5)
+				(name "T_{XD}"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 28.5 -12 180)
-				(length 5.08)
-				(name "GND"
+			(pin power_in line
+				(at 10 -5 180)
+				(length 2.5)
+				(name "G_{ND}"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 28.5 0 180)
-				(length 5.08)
-				(name "VDD"
+			(pin power_in line
+				(at 10 2.5 180)
+				(length 2.5)
+				(name "V_{DD}"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -12 0)
-				(length 5.08)
-				(name "RXD"
+				(at -10 -5 0)
+				(length 2.5)
+				(name "R_{XD}"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 5.08)
-				(name "VIO"
+			(pin power_in line
+				(at -10 2.5 0)
+				(length 2.5)
+				(name "V_{IO}"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 28.5 -8 180)
-				(length 5.08)
-				(name "CANL"
+				(at 10 -2.5 180)
+				(length 2.5)
+				(name "CAN_{L}"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "6"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 28.5 -4 180)
-				(length 5.08)
-				(name "CANH"
+				(at 10 0 180)
+				(length 2.5)
+				(name "CAN_{H}"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "7"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 0 -4 0)
-				(length 5.08)
-				(name "STBY"
+			(pin input line
+				(at -10 0 0)
+				(length 2.5)
+				(name "S_{TDBY}"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
 				)
 				(number "8"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.25 1.25)
 						)
 					)
+				)
+			)
+		)
+		(symbol "MPC2562_1_1"
+			(rectangle
+				(start -7.5 5)
+				(end 7.5 -7.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
