@@ -2,1605 +2,6 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "100KOHM"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at 2 1.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" ""
-			(at 2 -2.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "uv_meter_v1:RES_0805_ERJ"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100k Ohms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "100KOHM_1_0"
-			(polyline
-				(pts
-					(xy 0 0) (xy 2 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2 0) (xy 2.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.5 1) (xy 3 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3 -1) (xy 3.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 1) (xy 4 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4 -1) (xy 4.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.5 1) (xy 5 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -1) (xy 5.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.5 1) (xy 6 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6 -1) (xy 6.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.5 0) (xy 8.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 0)
-				(name "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 8.42 0 180)
-				(length 0)
-				(name "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "10KOHM"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at 2 1.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" ""
-			(at 2 -2.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "uv_meter_v1:RES_0805_ERJ"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "10KOHM_1_0"
-			(polyline
-				(pts
-					(xy 0 0) (xy 2 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2 0) (xy 2.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.5 1) (xy 3 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3 -1) (xy 3.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 1) (xy 4 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4 -1) (xy 4.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.5 1) (xy 5 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -1) (xy 5.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.5 1) (xy 6 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6 -1) (xy 6.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.5 0) (xy 8.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 0)
-				(name "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 8.42 0 180)
-				(length 0)
-				(name "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "10MOHM"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" ""
-			(at 2 1.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" ""
-			(at 2 -2.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "uv_meter_v1:RES_0805_ERJ"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" " RES SMD 10M OHM 5% 1/8W 0805\n\n10 MOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film\n\nUseful links:\n\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL17.pdf Recommended land pattern\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL9.pdf Product catalog\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL14.pdf Recommended Soldering Conditions\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL11.pdf Panasonic's Surface mount resistors technical guide  (Vers. 3)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "10MOHM_1_0"
-			(polyline
-				(pts
-					(xy 0 0) (xy 2 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2 0) (xy 2.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.5 1) (xy 3 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3 -1) (xy 3.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 1) (xy 4 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4 -1) (xy 4.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.5 1) (xy 5 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -1) (xy 5.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.5 1) (xy 6 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6 -1) (xy 6.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.5 0) (xy 8.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 0)
-				(name "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 8.42 0 180)
-				(length 0)
-				(name "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "1KOHM"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at 2 1.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" ""
-			(at 2 -2.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "uv_meter_v1:RES_0805_ERJ"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1k Ohms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "1KOHM_1_0"
-			(polyline
-				(pts
-					(xy 0 0) (xy 2 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2 0) (xy 2.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.5 1) (xy 3 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3 -1) (xy 3.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 1) (xy 4 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4 -1) (xy 4.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.5 1) (xy 5 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -1) (xy 5.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.5 1) (xy 6 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6 -1) (xy 6.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.5 0) (xy 8.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 0)
-				(name "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 8.42 0 180)
-				(length 0)
-				(name "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "22KOHM"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at 2 1.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" ""
-			(at 2 -2.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "uv_meter_v1:RES_0805_ERJ"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "22k Ohms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "22KOHM_1_0"
-			(polyline
-				(pts
-					(xy 0 0) (xy 2 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2 0) (xy 2.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.5 1) (xy 3 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3 -1) (xy 3.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 1) (xy 4 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4 -1) (xy 4.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.5 1) (xy 5 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -1) (xy 5.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.5 1) (xy 6 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6 -1) (xy 6.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.5 0) (xy 8.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 0)
-				(name "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 8.42 0 180)
-				(length 0)
-				(name "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "3.3KOHM"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" ""
-			(at 2 1.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" ""
-			(at 2 -2.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "uv_meter_v1:RES_0805_ERJ"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" " RES SMD 3.3K OHM 1% 1/8W 0805\n\n3.3 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film\n\nUseful links:\n\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf ERJ Series, Precision Resistor Datasheet\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL17.pdf Recommended land pattern\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL9.pdf Product catalog\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL14.pdf Recommended Soldering Conditions\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL11.pdf Panasonic's Surface mount resistors technical guide  (Vers. 3)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "3.3KOHM_1_0"
-			(polyline
-				(pts
-					(xy 0 0) (xy 2 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2 0) (xy 2.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.5 1) (xy 3 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3 -1) (xy 3.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 1) (xy 4 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4 -1) (xy 4.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.5 1) (xy 5 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -1) (xy 5.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.5 1) (xy 6 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6 -1) (xy 6.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.5 0) (xy 8.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 0)
-				(name "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 8.42 0 180)
-				(length 0)
-				(name "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "5.1KOHM"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" ""
-			(at 2 1.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" ""
-			(at 2 -2.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "uv_meter_v1:RES_0805_VISHAY"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" " RES SMD 5.1K OHM 1% 1/8W 0805\n\n5.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film\n\nUseful links:\n\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf ERJ Series, Precision Resistor Datasheet\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL17.pdf Recommended land pattern\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL9.pdf Product catalog\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL14.pdf Recommended Soldering Conditions\n• https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL11.pdf Panasonic's Surface mount resistors technical guide  (Vers. 3)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "5.1KOHM_1_0"
-			(polyline
-				(pts
-					(xy 0 0) (xy 2 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2 0) (xy 2.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.5 1) (xy 3 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3 -1) (xy 3.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.5 1) (xy 4 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4 -1) (xy 4.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.5 1) (xy 5 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 -1) (xy 5.5 1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.5 1) (xy 6 -1)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6 -1) (xy 6.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.5 0) (xy 8.5 0)
-				)
-				(stroke
-					(width 0.15)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 0)
-				(name "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 8.42 0 180)
-				(length 0)
-				(name "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "BUTTON_PTS64"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5157,6 +3558,119 @@
 			)
 		)
 	)
+	(symbol "R"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 -2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:RES_0805_ERJ"
+			(at 12.5 2.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 12.5 -2.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic Symbol : Chip Resistor 0805 (2012 Metric)"
+			(at 12.5 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "res resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "R_1_0"
+			(pin passive line
+				(at -3.75 0 0)
+				(length 1.25)
+				(name "1"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.75 0 180)
+				(length 1.25)
+				(name "2"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.85 0.85)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(rectangle
+				(start -2.5 1)
+				(end 2.5 -1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
 	(symbol "SOCKET_STM32"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6190,6 +4704,64 @@
 			)
 		)
 	)
+	(symbol "100kΩ"
+		(extends "R")
+		(property "Reference" "R"
+			(at 0 2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Value" "100 kΩ"
+			(at 0 -2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:RES_0805_ERJ"
+			(at 12.5 2.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 12.5 -2.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 kΩ ±5% 0,125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 12.5 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "res resistor 100kΩ 100k"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "100nF"
 		(extends "C")
 		(property "Reference" "C"
@@ -6241,6 +4813,168 @@
 			)
 		)
 		(property "ki_keywords" "cap capacitor 100nF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "10MΩ"
+		(extends "R")
+		(property "Reference" "R"
+			(at 0 2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Value" "10 MΩ"
+			(at 0 -2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:RES_0805_ERJ"
+			(at 12.5 2.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 12.5 -2.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 MΩ ±5% 0,125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 12.5 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Recommended land pattern" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL17.pdf"
+			(at 12.5 -7.5 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Product catalog" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL9.pdf"
+			(at 12.5 -10 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Recommended Soldering Conditions" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL14.pdf"
+			(at 12.5 -12.5 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Panasonic's Surface mount resistors technical guide (Vers. 3)"
+			"https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL11.pdf"
+			(at 12.5 -15 0
+			)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "res resistor 10MΩ 10M"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "10kΩ"
+		(extends "R")
+		(property "Reference" "R"
+			(at 0 2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 0 -2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:RES_0805_ERJ"
+			(at 12.5 2.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 12.5 -2.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kΩ ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 12.5 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "res resistor 10kΩ 10k"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6310,6 +5044,64 @@
 			)
 		)
 	)
+	(symbol "1kΩ"
+		(extends "R")
+		(property "Reference" "R"
+			(at 0 2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Value" "1 kΩ"
+			(at 0 -2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:RES_0805_ERJ"
+			(at 12.5 2.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 12.5 -2.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1k Ohms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 12.5 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "res resistor 1kΩ 1k"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "1µF"
 		(extends "C")
 		(property "Reference" "C"
@@ -6361,6 +5153,294 @@
 			)
 		)
 		(property "ki_keywords" "cap capacitor 1µF 1uF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "22kΩ"
+		(extends "R")
+		(property "Reference" "R"
+			(at 0 2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Value" "22 kΩ"
+			(at 0 -2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:RES_0805_ERJ"
+			(at 12.5 2.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 12.5 -2.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 kΩ ±5% 0,125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 12.5 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "res resistor 22kΩ 22k"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "3.3kΩ"
+		(extends "R")
+		(property "Reference" "R"
+			(at 0 2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Value" "3,3 kΩ"
+			(at 0 -2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:RES_0805_ERJ"
+			(at 12.5 2.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 12.5 -2.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3,3 kΩ ±1% 0,125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 12.5 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ERJ Series, Precision Resistor Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 12.5 -7.5 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Recommended land pattern" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL17.pdf"
+			(at 12.5 -10 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Product catalogue" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL9.pdf"
+			(at 12.5 -12.5 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Recommended Soldering Conditions" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL14.pdf"
+			(at 12.5 -15 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Panasonic's Surface mount resistors technical guide (Vers. 3)"
+			"https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL11.pdf"
+			(at 12.5 -17.5 0
+			)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "res resistor 3.3kΩ 3.3k"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "5.1kΩ"
+		(extends "R")
+		(property "Reference" "R"
+			(at 0 2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Value" "5,1 kΩ"
+			(at 0 -2.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:RES_0805_VISHAY"
+			(at 12.5 2.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 12.5 -2.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5,1 kΩ ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 12.5 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ERJ Series, Precision Resistor Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 12.5 -7.5 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Recommended land pattern" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL17.pdf"
+			(at 12.5 -10 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Product catalog" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL9.pdf"
+			(at 12.5 -12.5 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Recommended Soldering Conditions" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL14.pdf"
+			(at 12.5 -15 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Panasonic's Surface mount resistors technical guide (Vers. 3)"
+			"https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/DMA0000COL11.pdf"
+			(at 12.5 -17.5 0
+			)
+			(show_name)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "res resistor 5.1kΩ 5.1k"
 			(at 0 0 0)
 			(effects
 				(font
