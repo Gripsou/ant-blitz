@@ -1699,34 +1699,37 @@
 			)
 		)
 	)
-	(symbol "LED_GREEN_0805"
+	(symbol "LED_0805"
+		(pin_numbers hide)
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "LD"
-			(at 0 3.5 0)
+			(at 0 3.75 0)
 			(effects
 				(font
 					(size 1 0.85)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 0 -3 0)
+		(property "Value" "LED_0805"
+			(at 0 -2.5 0)
 			(effects
 				(font
 					(size 1 0.85)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "uv_meter_v1:LED_0805"
-			(at 0 0 0)
+			(at 15 2.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.25 1.25)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1739,7 +1742,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red 625nm LED Indication - Discrete 2.2V 0805 (2012 Metric)"
+		(property "Description" "Generic discrete 2.2V 0805 (2012 Metric) LED symbol"
+			(at 15 0 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "led 0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1748,18 +1761,10 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "LED_GREEN_0805_1_0"
+		(symbol "LED_0805_1_0"
 			(polyline
 				(pts
-					(xy -0.04 0) (xy 1.23 0)
+					(xy 2.9 3.05) (xy 1.9 2.05)
 				)
 				(stroke
 					(width 0.1524)
@@ -1771,7 +1776,19 @@
 			)
 			(polyline
 				(pts
-					(xy 2.94 3.06) (xy 1.94 2.06)
+					(xy 3.55 2.35) (xy 2.6 1.4)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.75 1.25) (xy 3.75 -1.25)
 				)
 				(stroke
 					(width 0.1524)
@@ -1783,55 +1800,19 @@
 			)
 			(polyline
 				(pts
-					(xy 3.64 2.36) (xy 2.64 1.36)
+					(xy 1.25 1.25) (xy 3.75 0) (xy 1.25 -1.25) (xy 1.25 1.25)
 				)
 				(stroke
-					(width 0.1524)
+					(width 0)
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
 				(pts
-					(xy 3.77 0) (xy 3.77 -1.27)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.77 1.27) (xy 3.77 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.04 0) (xy 3.77 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.23 1.27) (xy 3.77 0) (xy 1.23 -1.27)
+					(xy 2.45 3.05) (xy 2.9 3.05) (xy 2.9 2.6) (xy 2.45 3.05)
 				)
 				(stroke
 					(width 0.1524)
@@ -1843,22 +1824,10 @@
 			)
 			(polyline
 				(pts
-					(xy 2.44 3.06) (xy 2.94 3.06) (xy 2.94 2.56)
+					(xy 3.05 2.35) (xy 3.55 2.35) (xy 3.55 1.85) (xy 3.05 2.35)
 				)
 				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.14 2.36) (xy 3.64 2.36) (xy 3.64 1.86)
-				)
-				(stroke
-					(width 0.1524)
+					(width 0)
 					(type solid)
 				)
 				(fill
@@ -1866,445 +1835,37 @@
 				)
 			)
 			(pin bidirectional line
-				(at 4.92 0 180)
-				(length 0)
+				(at 5 0 180)
+				(length 1.25)
 				(name "K"
 					(effects
 						(font
-							(size 0 0)
+							(size 0.85 0.85)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 0 0)
+							(size 0.85 0.85)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0.08 0 0)
-				(length 0)
+				(at 0 0 0)
+				(length 1.25)
 				(name "A"
 					(effects
 						(font
-							(size 0 0)
+							(size 0.85 0.85)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "LED_RED_0805"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "LD"
-			(at 0 3.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" ""
-			(at 0 -3 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "uv_meter_v1:LED_0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 625nm LED Indication - Discrete 2.2V 0805 (2012 Metric)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "LED_RED_0805_1_0"
-			(polyline
-				(pts
-					(xy -0.04 0) (xy 1.23 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.94 3.06) (xy 1.94 2.06)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.64 2.36) (xy 2.64 1.36)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.77 0) (xy 3.77 -1.27)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.77 1.27) (xy 3.77 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.04 0) (xy 3.77 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.23 1.27) (xy 3.77 0) (xy 1.23 -1.27)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.44 3.06) (xy 2.94 3.06) (xy 2.94 2.56)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.14 2.36) (xy 3.64 2.36) (xy 3.64 1.86)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(pin bidirectional line
-				(at 4.92 0 180)
-				(length 0)
-				(name "K"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0.08 0 0)
-				(length 0)
-				(name "A"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "LED_YELLOW_0805"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "LD"
-			(at 0 3.5 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" ""
-			(at 0 -3 0)
-			(effects
-				(font
-					(size 1 0.85)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "uv_meter_v1:LED_0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Orange 605nm LED Indication - Discrete 2.2V 0805 (2012 Metric)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "LED_YELLOW_0805_1_0"
-			(polyline
-				(pts
-					(xy -0.04 0) (xy 1.23 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.94 3.06) (xy 1.94 2.06)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.64 2.36) (xy 2.64 1.36)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.77 0) (xy 3.77 -1.27)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.77 1.27) (xy 3.77 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.04 0) (xy 3.77 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.23 1.27) (xy 3.77 0) (xy 1.23 -1.27)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.44 3.06) (xy 2.94 3.06) (xy 2.94 2.56)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.14 2.36) (xy 3.64 2.36) (xy 3.64 1.86)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(pin bidirectional line
-				(at 4.92 0 180)
-				(length 0)
-				(name "K"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0.08 0 0)
-				(length 0)
-				(name "A"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0 0)
+							(size 0.85 0.85)
 						)
 					)
 				)
@@ -2903,34 +2464,36 @@
 		)
 	)
 	(symbol "PHOTODIODE-UV_340NMGUVA-S12SD"
+		(pin_numbers hide)
+		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" ""
-			(at 2 3.5 0)
+		(property "Reference" "LD"
+			(at 0 3.75 0)
 			(effects
 				(font
 					(size 1 0.85)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 2 -3 0)
+		(property "Value" "GUVA-S12SD"
+			(at 0 -2.5 0)
 			(effects
 				(font
 					(size 1 0.85)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "uv_meter_v1:PHOTODIODE_MOLDED"
-			(at 0 0 0)
+			(at 15 0 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.25 1.25)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2944,6 +2507,15 @@
 			)
 		)
 		(property "Description" " UV-A SENSOR (240nm-370nm)\n\nPhotodiode 240nm-370nm, J-Lead package\n\nNOTES :\n\n• Link to http://www.geni-uv.com/download/products/GUVA-S12SD.pdf datasheet from Genicom Co., Ltd."
+			(at 0 -12.5 0)
+			(effects
+				(font
+					(size 1.25 1.25)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "photodiode UV"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2952,30 +2524,10 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "PHOTODIODE-UV_340NMGUVA-S12SD_1_0"
 			(polyline
 				(pts
-					(xy 1.96 0) (xy 2 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2 0) (xy 0 0)
+					(xy 2 2) (xy 2 2.3)
 				)
 				(stroke
 					(width 0.15)
@@ -2987,19 +2539,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2 0) (xy 3.23 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4 2) (xy 4 2.3)
+					(xy 2 2) (xy 2.3 2)
 				)
 				(stroke
 					(width 0.15)
@@ -3011,7 +2551,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4 2) (xy 4.3 2)
+					(xy 2 2.3) (xy 2.3 2)
 				)
 				(stroke
 					(width 0.15)
@@ -3023,19 +2563,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4 2.3) (xy 4.3 2)
-				)
-				(stroke
-					(width 0.1)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 2.3) (xy 5 2)
+					(xy 3 2.25) (xy 3 1.95)
 				)
 				(stroke
 					(width 0.15)
@@ -3047,19 +2575,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5 2.3) (xy 5.3 2)
-				)
-				(stroke
-					(width 0.1)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5 3) (xy 4 2)
+					(xy 3 2.25) (xy 3.3 1.95)
 				)
 				(stroke
 					(width 0.15)
@@ -3071,7 +2587,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.3 2) (xy 5 2)
+					(xy 3 3) (xy 2 2)
 				)
 				(stroke
 					(width 0.15)
@@ -3083,31 +2599,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.77 0) (xy 5.77 -1.27)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.77 1.27) (xy 5.77 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6 3) (xy 5 2)
+					(xy 3.3 1.95) (xy 3 1.95)
 				)
 				(stroke
 					(width 0.15)
@@ -3119,10 +2611,10 @@
 			)
 			(polyline
 				(pts
-					(xy 8 0) (xy 5.77 0)
+					(xy 3.75 1.25) (xy 3.75 -1.25)
 				)
 				(stroke
-					(width 0.1524)
+					(width 0)
 					(type solid)
 				)
 				(fill
@@ -3131,7 +2623,19 @@
 			)
 			(polyline
 				(pts
-					(xy 3.23 1.27) (xy 5.77 0) (xy 3.23 -1.27)
+					(xy 4 2.95) (xy 3 1.95)
+				)
+				(stroke
+					(width 0.15)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.25 1.25) (xy 3.79 -0.02) (xy 1.25 -1.25) (xy 1.25 1.25)
 				)
 				(stroke
 					(width 0.1524)
@@ -3142,37 +2646,37 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.08 0 0)
-				(length 0)
+				(at 5 0 180)
+				(length 1.25)
 				(name "K"
 					(effects
 						(font
-							(size 0 0)
+							(size 0.85 0.85)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 0 0)
+							(size 0.85 0.85)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -0.08 0 180)
-				(length 0)
+				(at 0 0 0)
+				(length 1.25)
 				(name "A"
 					(effects
 						(font
-							(size 0 0)
+							(size 0.85 0.85)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 0 0)
+							(size 0.85 0.85)
 						)
 					)
 				)
@@ -5160,6 +4664,177 @@
 			)
 		)
 		(property "Description" "TPS7A24 200-mA, 18-V input voltage, Ultra-Low Iq, Low-Dropout Voltage Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "LED_GREEN_0805"
+		(extends "LED_0805")
+		(property "Reference" "LD"
+			(at 0 3.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" ""
+			(at 0 -3 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:LED_0805"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 625nm LED Indication - Discrete 2.2V 0805 (2012 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "led 0805"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "LED_RED_0805"
+		(extends "LED_0805")
+		(property "Reference" "LD"
+			(at 0 3.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" ""
+			(at 0 -3 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:LED_0805"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 625nm LED Indication - Discrete 2.2V 0805 (2012 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "led 0805"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "LED_YELLOW_0805"
+		(extends "LED_0805")
+		(property "Reference" "LD"
+			(at 0 3.5 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" ""
+			(at 0 -3 0)
+			(effects
+				(font
+					(size 1 0.85)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "uv_meter_v1:LED_0805"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Orange 605nm LED Indication - Discrete 2.2V 0805 (2012 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "led 0805"
 			(at 0 0 0)
 			(effects
 				(font
